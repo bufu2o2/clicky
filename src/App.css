@@ -1,33 +1,51 @@
-.App {
-  text-align: center;
+.topBar {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    justify-items: center;
+    align-items: top;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    box-shadow: 0 5px 5px;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.btnGrid {
+    display: grid;
+    margin-top: 100px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px 0;
+    align-items: center;
+    justify-items: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.clickyBtn {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    outline: none;
+    align-content: space-around;
+    justify-content: space-around;
+    border-radius: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.clickyImg {
+    width: 130px;
+    height: 130px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h5 {
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.regAnswer {
+    color: black;
+    /* font-size: 25px; */
+}
+
+.redAnswer {
+    color: crimson;
+    font-weight: 800;
 }
