@@ -7,7 +7,7 @@ function Top ({cScore, tScore, answer}) {
     return (
         <div className = 'topBar'>
             <div className = 'left'>
-                <a href = '/'><h3>Home</h3></a>
+                <a href = '/clicky'><h3>Home</h3></a>
             </div>
             <div className = 'middle'>
                 <h3>
